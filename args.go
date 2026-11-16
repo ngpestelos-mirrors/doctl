@@ -652,6 +652,9 @@ const (
 	ArgRegistryNeverExpire = "never-expire"
 	// ArgSubscriptionTier is a subscription tier slug.
 	ArgSubscriptionTier = "subscription-tier"
+	// ArgEnableInsightsLogs opts a container registry in to sending its logs to Insights.
+	// The field is only sent when the flag is set on registry create.
+	ArgEnableInsightsLogs = "enable-insights-logs"
 	// ArgGCIncludeUntaggedManifests indicates that a garbage collection should delete
 	// all untagged manifests.
 	ArgGCIncludeUntaggedManifests = "include-untagged-manifests"
